@@ -17,7 +17,7 @@ sessionStorage = {}
 
 @app.route('/')
 def index():
-    return "Hello World!"
+    return "Угадай город"
 
 
 @app.route('/post', methods=['POST'])
